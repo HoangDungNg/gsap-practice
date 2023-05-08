@@ -1,14 +1,22 @@
-import { useState } from 'react';
-import { HoverBox, RotateElement } from './components';
+import {
+  HoverBox,
+  RotateElement,
+  GsapContextEle,
+  CustomComponent,
+  GsapTimeline,
+  DynamicGsap,
+} from './components';
 import './App.css';
 
 function App() {
-  const [count, setCount] = useState(0);
-
   return (
     <>
-      <HoverBox />
-      <RotateElement />
+      {/* <HoverBox />
+      <RotateElement /> */}
+      {/* <GsapContextEle />
+      <CustomComponent /> */}
+      <GsapTimeline />
+      <DynamicGsap />
     </>
   );
 }

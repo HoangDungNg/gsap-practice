@@ -1,0 +1,31 @@
+.box {
+  width: 100px;
+  height: 100px;
+  border-radius: 12px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  background-color: goldenrod;
+  font-weight: 600;
+  color: #fff;
+}
+
+.circle {
+  width: 100px;
+  height: 100px;
+  border-radius: 99%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  background-color: pink;
+  font-weight: 600;
+  color: #fff;
+}
+
+.gsap-context {
+  display: flex;
+  gap: 100px;
+  margin-top: 40px;
+}
