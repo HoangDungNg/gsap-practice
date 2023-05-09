@@ -6,6 +6,13 @@ import {
   GsapTimeline,
   DynamicGsap,
 } from './components';
+import {
+  PassingTimeline,
+  PassingCallback,
+  PassingUsingContext,
+  FadeInComponent,
+  RegisterEffectSample,
+} from './advanced_components';
 import './App.css';
 
 function App() {
@@ -13,10 +20,15 @@ function App() {
     <>
       {/* <HoverBox />
       <RotateElement /> */}
-      {/* <GsapContextEle />
-      <CustomComponent /> */}
-      <GsapTimeline />
-      <DynamicGsap />
+      <GsapContextEle />
+      {/* <CustomComponent /> */}
+      {/* <GsapTimeline />
+      <DynamicGsap /> */}
+      {/* <PassingTimeline /> */}
+      {/* <PassingCallback /> */}
+      {/* <PassingUsingContext /> */}
+      {/* <FadeInComponent /> */}
+      <RegisterEffectSample />
     </>
   );
 }
